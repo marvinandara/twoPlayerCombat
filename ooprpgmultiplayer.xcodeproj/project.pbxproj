@@ -12,6 +12,9 @@
 		778562E01D3ABF370073F226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778562DE1D3ABF370073F226 /* Main.storyboard */; };
 		778562E21D3ABF370073F226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778562E11D3ABF370073F226 /* Assets.xcassets */; };
 		778562E51D3ABF370073F226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778562E31D3ABF370073F226 /* LaunchScreen.storyboard */; };
+		778562ED1D3AE21F0073F226 /* orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778562EC1D3AE21F0073F226 /* orc.swift */; };
+		778562EF1D3AE22B0073F226 /* knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778562EE1D3AE22B0073F226 /* knight.swift */; };
+		778562F11D3AEC910073F226 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778562F01D3AEC910073F226 /* player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		778562E11D3ABF370073F226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		778562E41D3ABF370073F226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		778562E61D3ABF370073F226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778562EC1D3AE21F0073F226 /* orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orc.swift; sourceTree = "<group>"; };
+		778562EE1D3AE22B0073F226 /* knight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knight.swift; sourceTree = "<group>"; };
+		778562F01D3AEC910073F226 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				778562E11D3ABF370073F226 /* Assets.xcassets */,
 				778562E31D3ABF370073F226 /* LaunchScreen.storyboard */,
 				778562E61D3ABF370073F226 /* Info.plist */,
+				778562EC1D3AE21F0073F226 /* orc.swift */,
+				778562EE1D3AE22B0073F226 /* knight.swift */,
+				778562F01D3AEC910073F226 /* player.swift */,
 			);
 			path = ooprpgmultiplayer;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778562EF1D3AE22B0073F226 /* knight.swift in Sources */,
 				778562DD1D3ABF370073F226 /* ViewController.swift in Sources */,
+				778562ED1D3AE21F0073F226 /* orc.swift in Sources */,
+				778562F11D3AEC910073F226 /* player.swift in Sources */,
 				778562DB1D3ABF370073F226 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
